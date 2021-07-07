@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621C5C1C2680861B00DCDB2C /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C1B2680861B00DCDB2C /* TranslationView.swift */; };
+		621C5C1E2680864800DCDB2C /* TranslationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C1D2680864800DCDB2C /* TranslationViewModel.swift */; };
+		621C5C202680866700DCDB2C /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C1F2680866700DCDB2C /* Translation.swift */; };
+		621C5C2226808BD900DCDB2C /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C2126808BD900DCDB2C /* WeatherView.swift */; };
+		621C5C2426808BF800DCDB2C /* WeatherBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C2326808BF800DCDB2C /* WeatherBlock.swift */; };
+		621C5C2626808C1800DCDB2C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C2526808C1800DCDB2C /* Weather.swift */; };
+		621C5C2826808CB500DCDB2C /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C2726808CB500DCDB2C /* WeatherViewModel.swift */; };
+		621C5C2A268090DB00DCDB2C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C29268090DB00DCDB2C /* Color.swift */; };
+		621C5C2D2680913800DCDB2C /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621C5C2C2680913800DCDB2C /* HideKeyboard.swift */; };
 		626AEB37267FA1CC0034C88C /* Baluchon2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB36267FA1CC0034C88C /* Baluchon2App.swift */; };
-		626AEB39267FA1CC0034C88C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB38267FA1CC0034C88C /* ContentView.swift */; };
 		626AEB3B267FA1CE0034C88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB3A267FA1CE0034C88C /* Assets.xcassets */; };
 		626AEB3E267FA1CE0034C88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB3D267FA1CE0034C88C /* Preview Assets.xcassets */; };
-		626AEB40267FA1CE0034C88C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB3F267FA1CE0034C88C /* Persistence.swift */; };
-		626AEB43267FA1CE0034C88C /* Baluchon2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB41267FA1CE0034C88C /* Baluchon2.xcdatamodeld */; };
 		626AEB4E267FA1CE0034C88C /* Baluchon2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB4D267FA1CE0034C88C /* Baluchon2Tests.swift */; };
 		626AEB59267FA1CE0034C88C /* Baluchon2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB58267FA1CE0034C88C /* Baluchon2UITests.swift */; };
+		626AEB68267FA2250034C88C /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB67267FA2250034C88C /* DestinationView.swift */; };
+		626AEB6A267FA2870034C88C /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB69267FA2870034C88C /* Destination.swift */; };
+		626AEB6D267FA2CA0034C88C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB6C267FA2CA0034C88C /* Currency.swift */; };
+		626AEB70267FA3E60034C88C /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB6F267FA3E60034C88C /* CurrencyView.swift */; };
+		626AEB72267FA4090034C88C /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB71267FA4090034C88C /* CurrencyViewModel.swift */; };
+		626AEB74267FA45B0034C88C /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB73267FA45B0034C88C /* APIKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621C5C1B2680861B00DCDB2C /* TranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslationView.swift; path = Baluchon2/TranslationView.swift; sourceTree = SOURCE_ROOT; };
+		621C5C1D2680864800DCDB2C /* TranslationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslationViewModel.swift; path = Baluchon2/Views/TranslationViewModel.swift; sourceTree = SOURCE_ROOT; };
+		621C5C1F2680866700DCDB2C /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Translation.swift; path = Baluchon2/ViewModels/Translation.swift; sourceTree = SOURCE_ROOT; };
+		621C5C2126808BD900DCDB2C /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherView.swift; path = Baluchon2/WeatherView.swift; sourceTree = SOURCE_ROOT; };
+		621C5C2326808BF800DCDB2C /* WeatherBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBlock.swift; sourceTree = "<group>"; };
+		621C5C2526808C1800DCDB2C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = Baluchon2/Views/Weather.swift; sourceTree = SOURCE_ROOT; };
+		621C5C2726808CB500DCDB2C /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherViewModel.swift; path = Baluchon2/DataModels/WeatherViewModel.swift; sourceTree = SOURCE_ROOT; };
+		621C5C29268090DB00DCDB2C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		621C5C2C2680913800DCDB2C /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HideKeyboard.swift; path = Baluchon2/DataModels/HideKeyboard.swift; sourceTree = SOURCE_ROOT; };
 		626AEB33267FA1CC0034C88C /* Baluchon2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baluchon2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626AEB36267FA1CC0034C88C /* Baluchon2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baluchon2App.swift; sourceTree = "<group>"; };
-		626AEB38267FA1CC0034C88C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		626AEB3A267FA1CE0034C88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		626AEB3D267FA1CE0034C88C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		626AEB3F267FA1CE0034C88C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		626AEB42267FA1CE0034C88C /* Baluchon2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Baluchon2.xcdatamodel; sourceTree = "<group>"; };
 		626AEB44267FA1CE0034C88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626AEB49267FA1CE0034C88C /* Baluchon2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baluchon2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		626AEB4D267FA1CE0034C88C /* Baluchon2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baluchon2Tests.swift; sourceTree = "<group>"; };
@@ -49,6 +67,12 @@
 		626AEB54267FA1CE0034C88C /* Baluchon2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baluchon2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		626AEB58267FA1CE0034C88C /* Baluchon2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baluchon2UITests.swift; sourceTree = "<group>"; };
 		626AEB5A267FA1CE0034C88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626AEB67267FA2250034C88C /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		626AEB69267FA2870034C88C /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		626AEB6C267FA2CA0034C88C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		626AEB6F267FA3E60034C88C /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyView.swift; path = Baluchon2/CurrencyView.swift; sourceTree = SOURCE_ROOT; };
+		626AEB71267FA4090034C88C /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyViewModel.swift; path = Baluchon2/Views/CurrencyViewModel.swift; sourceTree = SOURCE_ROOT; };
+		626AEB73267FA45B0034C88C /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIKeys.swift; path = Baluchon2/ViewModels/APIKeys.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		621C5C2B268090DF00DCDB2C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				621C5C2C2680913800DCDB2C /* HideKeyboard.swift */,
+				621C5C29268090DB00DCDB2C /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		626AEB2A267FA1CC0034C88C = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				626AEB36267FA1CC0034C88C /* Baluchon2App.swift */,
-				626AEB38267FA1CC0034C88C /* ContentView.swift */,
+				626AEB66267FA2000034C88C /* Views */,
+				626AEB6B267FA28B0034C88C /* ViewModels */,
+				626AEB6E267FA2DC0034C88C /* DataModels */,
+				621C5C2B268090DF00DCDB2C /* Extensions */,
 				626AEB3A267FA1CE0034C88C /* Assets.xcassets */,
-				626AEB3F267FA1CE0034C88C /* Persistence.swift */,
 				626AEB44267FA1CE0034C88C /* Info.plist */,
-				626AEB41267FA1CE0034C88C /* Baluchon2.xcdatamodeld */,
 				626AEB3C267FA1CE0034C88C /* Preview Content */,
 			);
 			path = Baluchon2;
@@ -134,6 +168,40 @@
 				626AEB5A267FA1CE0034C88C /* Info.plist */,
 			);
 			path = Baluchon2UITests;
+			sourceTree = "<group>";
+		};
+		626AEB66267FA2000034C88C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				621C5C2126808BD900DCDB2C /* WeatherView.swift */,
+				621C5C2326808BF800DCDB2C /* WeatherBlock.swift */,
+				626AEB67267FA2250034C88C /* DestinationView.swift */,
+				621C5C1B2680861B00DCDB2C /* TranslationView.swift */,
+				626AEB6F267FA3E60034C88C /* CurrencyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		626AEB6B267FA28B0034C88C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				621C5C2726808CB500DCDB2C /* WeatherViewModel.swift */,
+				621C5C1D2680864800DCDB2C /* TranslationViewModel.swift */,
+				626AEB71267FA4090034C88C /* CurrencyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		626AEB6E267FA2DC0034C88C /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				621C5C2526808C1800DCDB2C /* Weather.swift */,
+				626AEB69267FA2870034C88C /* Destination.swift */,
+				621C5C1F2680866700DCDB2C /* Translation.swift */,
+				626AEB73267FA45B0034C88C /* APIKeys.swift */,
+				626AEB6C267FA2CA0034C88C /* Currency.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +333,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				626AEB43267FA1CE0034C88C /* Baluchon2.xcdatamodeld in Sources */,
-				626AEB40267FA1CE0034C88C /* Persistence.swift in Sources */,
-				626AEB39267FA1CC0034C88C /* ContentView.swift in Sources */,
+				621C5C2226808BD900DCDB2C /* WeatherView.swift in Sources */,
+				626AEB6A267FA2870034C88C /* Destination.swift in Sources */,
+				626AEB70267FA3E60034C88C /* CurrencyView.swift in Sources */,
+				621C5C2826808CB500DCDB2C /* WeatherViewModel.swift in Sources */,
+				626AEB68267FA2250034C88C /* DestinationView.swift in Sources */,
+				621C5C202680866700DCDB2C /* Translation.swift in Sources */,
+				626AEB74267FA45B0034C88C /* APIKeys.swift in Sources */,
+				626AEB6D267FA2CA0034C88C /* Currency.swift in Sources */,
+				621C5C2D2680913800DCDB2C /* HideKeyboard.swift in Sources */,
+				621C5C2A268090DB00DCDB2C /* Color.swift in Sources */,
+				621C5C1E2680864800DCDB2C /* TranslationViewModel.swift in Sources */,
+				621C5C2626808C1800DCDB2C /* Weather.swift in Sources */,
+				621C5C2426808BF800DCDB2C /* WeatherBlock.swift in Sources */,
+				621C5C1C2680861B00DCDB2C /* TranslationView.swift in Sources */,
+				626AEB72267FA4090034C88C /* CurrencyViewModel.swift in Sources */,
 				626AEB37267FA1CC0034C88C /* Baluchon2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,19 +668,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		626AEB41267FA1CE0034C88C /* Baluchon2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				626AEB42267FA1CE0034C88C /* Baluchon2.xcdatamodel */,
-			);
-			currentVersion = 626AEB42267FA1CE0034C88C /* Baluchon2.xcdatamodel */;
-			path = Baluchon2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 626AEB2B267FA1CC0034C88C /* Project object */;
 }
