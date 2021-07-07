@@ -72,7 +72,7 @@
 		626AEB6C267FA2CA0034C88C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		626AEB6F267FA3E60034C88C /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyView.swift; path = Baluchon2/CurrencyView.swift; sourceTree = SOURCE_ROOT; };
 		626AEB71267FA4090034C88C /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyViewModel.swift; path = Baluchon2/Views/CurrencyViewModel.swift; sourceTree = SOURCE_ROOT; };
-		626AEB73267FA45B0034C88C /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIKeys.swift; path = Baluchon2/ViewModels/APIKeys.swift; sourceTree = SOURCE_ROOT; };
+		626AEB73267FA45B0034C88C /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIKeys.swift; path = Baluchon2/APIKeys.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				626AEB36267FA1CC0034C88C /* Baluchon2App.swift */,
+				626AEB73267FA45B0034C88C /* APIKeys.swift */,
 				626AEB66267FA2000034C88C /* Views */,
 				626AEB6B267FA28B0034C88C /* ViewModels */,
 				626AEB6E267FA2DC0034C88C /* DataModels */,
@@ -198,7 +199,6 @@
 				621C5C2526808C1800DCDB2C /* Weather.swift */,
 				626AEB69267FA2870034C88C /* Destination.swift */,
 				621C5C1F2680866700DCDB2C /* Translation.swift */,
-				626AEB73267FA45B0034C88C /* APIKeys.swift */,
 				626AEB6C267FA2CA0034C88C /* Currency.swift */,
 			);
 			path = DataModels;
@@ -518,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hquart.Baluchon2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -540,7 +540,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hquart.Baluchon2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
