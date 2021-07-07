@@ -7,8 +7,6 @@
 
 
 import Foundation
-import SwiftUI
-import UIKit
 
 struct APIKeys {
     static let fixer = "62df1955da7154d3a5f6c4d6aca043a1"
