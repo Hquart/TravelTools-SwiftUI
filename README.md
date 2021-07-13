@@ -33,11 +33,9 @@
 
 * A private API key is required for each service, you can get one from:
   * Weather: https://openweathermap.org
-    * Paste your key in WeatherViewModel file, "parameters" variable, replace "APIKeys.openWeather"
   * Conversion: https://fixer.io
-    * Paste your key in CurrencyViewModel file, "parameters" variable, replace "APIKeys.fixer"
   * Google: https://cloud.google.com/translate
-    * Paste your key in TranslationViewModel file, "parameters" variable, replace "APIKeys.google"
+The key is to be pasted in APIKeys.swift file instead of "xxxxxxxxxxxxxxxxxxx" for each API
 
 ## Credits
 
