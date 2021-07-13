@@ -19,8 +19,6 @@
 		626AEB37267FA1CC0034C88C /* Baluchon2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB36267FA1CC0034C88C /* Baluchon2App.swift */; };
 		626AEB3B267FA1CE0034C88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB3A267FA1CE0034C88C /* Assets.xcassets */; };
 		626AEB3E267FA1CE0034C88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626AEB3D267FA1CE0034C88C /* Preview Assets.xcassets */; };
-		626AEB4E267FA1CE0034C88C /* Baluchon2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB4D267FA1CE0034C88C /* Baluchon2Tests.swift */; };
-		626AEB59267FA1CE0034C88C /* Baluchon2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB58267FA1CE0034C88C /* Baluchon2UITests.swift */; };
 		626AEB68267FA2250034C88C /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB67267FA2250034C88C /* DestinationView.swift */; };
 		626AEB6A267FA2870034C88C /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB69267FA2870034C88C /* Destination.swift */; };
 		626AEB6D267FA2CA0034C88C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AEB6C267FA2CA0034C88C /* Currency.swift */; };
@@ -62,11 +60,7 @@
 		626AEB3D267FA1CE0034C88C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		626AEB44267FA1CE0034C88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626AEB49267FA1CE0034C88C /* Baluchon2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baluchon2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		626AEB4D267FA1CE0034C88C /* Baluchon2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baluchon2Tests.swift; sourceTree = "<group>"; };
-		626AEB4F267FA1CE0034C88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626AEB54267FA1CE0034C88C /* Baluchon2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baluchon2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		626AEB58267FA1CE0034C88C /* Baluchon2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baluchon2UITests.swift; sourceTree = "<group>"; };
-		626AEB5A267FA1CE0034C88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626AEB67267FA2250034C88C /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 		626AEB69267FA2870034C88C /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		626AEB6C267FA2CA0034C88C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
@@ -113,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				626AEB35267FA1CC0034C88C /* Baluchon2 */,
-				626AEB4C267FA1CE0034C88C /* Baluchon2Tests */,
-				626AEB57267FA1CE0034C88C /* Baluchon2UITests */,
 				626AEB34267FA1CC0034C88C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,24 +143,6 @@
 				626AEB3D267FA1CE0034C88C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		626AEB4C267FA1CE0034C88C /* Baluchon2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				626AEB4D267FA1CE0034C88C /* Baluchon2Tests.swift */,
-				626AEB4F267FA1CE0034C88C /* Info.plist */,
-			);
-			path = Baluchon2Tests;
-			sourceTree = "<group>";
-		};
-		626AEB57267FA1CE0034C88C /* Baluchon2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				626AEB58267FA1CE0034C88C /* Baluchon2UITests.swift */,
-				626AEB5A267FA1CE0034C88C /* Info.plist */,
-			);
-			path = Baluchon2UITests;
 			sourceTree = "<group>";
 		};
 		626AEB66267FA2000034C88C /* Views */ = {
@@ -356,7 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				626AEB4E267FA1CE0034C88C /* Baluchon2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +337,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				626AEB59267FA1CE0034C88C /* Baluchon2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
