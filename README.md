@@ -35,7 +35,7 @@
   * Weather: https://openweathermap.org
   * Conversion: https://fixer.io
   * Google: https://cloud.google.com/translate
-The key is to be pasted in APIKeys.swift file instead of "xxxxxxxxxxxxxxxxxxx" for each API
+* The key is to be pasted in APIKeys.swift file instead of "xxxxxxxxxxxxxxxxxxx" for each API
 
 ## Credits
 
