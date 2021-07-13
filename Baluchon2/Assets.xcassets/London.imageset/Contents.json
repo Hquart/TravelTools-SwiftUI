@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "London.-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Capture d’écran 2021-02-08 à 10.53.48.png",
+      "filename" : "London.-2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "London.-3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

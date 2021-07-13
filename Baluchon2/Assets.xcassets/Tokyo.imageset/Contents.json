@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Tokyo-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Capture d’écran 2020-08-20 à 13.22.28.png",
+      "filename" : "Tokyo-2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Tokyo-3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

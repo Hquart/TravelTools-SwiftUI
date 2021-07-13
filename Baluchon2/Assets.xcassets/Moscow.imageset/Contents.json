@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Moscow-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Capture d’écran 2020-08-20 à 13.02.57.png",
+      "filename" : "Moscow-2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Moscow-3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
